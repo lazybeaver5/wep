@@ -1,0 +1,170 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>보스락 책방</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!--배경 이미지-->
+<body>
+  <div class="background"></div>
+</body>
+<header>
+  <div class="header">
+    <!--상단메뉴-->
+    <div>
+      <ul class="nav">
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">장바구니</a></li>
+        <li><a href="#">관심메뉴</a></li>
+      </ul>
+    </div>
+    <!--로고-->
+    <div class="logo">
+      <img src="wep/로고(겨울)2.PNG" alt="보스락책방 로고">
+    </div>
+  
+
+  
+    <!--검색창-->
+    <div class="search-container">
+      <input type="text" id="inputValue"/>
+      <span class="search-icon" onclick="checkReg( )"><img src="wep/검색아이콘.png"></span>
+    </div>
+  </div>
+</header>
+ <!--메인 카테고리-->
+ <nav class="main-category">
+  <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">베스트</a></li>
+      <li><a href="#">신간</a></li>
+      <li><a href="#">게시판</a></li>
+      <li><a href="#">전자책</a></li>
+      <li><a href="#">굿즈</a></li>
+      <li><a href="#">음반</a></li>
+      <li><a href="#">중고 서적</a></li>
+   </ul>
+ </nav>
+ <!--메인 이벤트-->
+<section>
+  <div class="slidebox">
+    <input type="radio" name="slide" id="slide01" checked>
+    <input type="radio" name="slide" id="slide02">
+    <ul class="slidelist">
+      <li class="slideitem">
+        <a><img src="wep/독서게시판 이벤트.png"></a>
+      </li>
+      <li class="slideitem">
+        <a><img src="wep/가을한정세일.png"></a>
+      </li>
+      
+    </ul>
+    <div class="slide-control">
+      <div class="control01">
+        <label for="slide01" class="prev"></label>
+        <label for="slide02" class="next"></label>
+      </div>
+      <div class="control02">
+        <label for="slide02" class="prev"></label>
+        <label for="slide01" class="next"></label>
+      </div>
+    </div>
+  </div>
+<!--넘김형식으로 만들어주세요-->
+
+ <!--아이콘-->
+  <div class="nav-icon">
+    <ul>
+      <li><a href="#"><img src="wep/도서.png" alt="도서아이콘"></a></li>
+      <li><a href="#"><img src="wep/굿즈.png" alt="굿즈아이콘"></a></li>
+      <li><a href="#"><img src="wep/리뷰.png" alt="리뷰"></a></li>
+      <li><a href="#"><img src="wep/쿠폰.png" alt="쿠폰아이콘"></a></li>
+      <li><a href="#"><img src="wep/멤버십.png" alt="멤버십"></a></li>
+      <li><a href="#"><img src="wep/포인트.png" alt="포인트"></a></li>
+      <li><a href="#"><img src="wep/게시판.png" alt="게시판"></a></li>
+      <li><a href="#"><img src="wep/추천.png" alt="추천"></a></li>
+    </ul>
+  </div>
+ <!--메인슬라이드1-->
+  <div class="mainslide01">
+    <h1><b>화제의 베스트셀러</b></h1>
+    <div class="bestseller">
+      <img src="wep/1-1 떨림과 울림.JPG" alt="'떨림과 울림'책 표지 사진">
+      <img src="wep/1-2 여행의 이유.JPG" alt="'여행의 이유'책 표지 사진">
+      <img src="wep/1-3 밝은 밤.JPG" alt="'밝은 밤책 표지 사진">
+      <img src="wep/1-4 역행자.JPG" alt="'역행자'책 표지 사진">
+    </div>
+    <div class="price">
+      <span class="price01"><p>떨림과 울림<br>13,500원</p></span>
+      <span class="price02"><p>여행의 이유<br>12,150원</p></span>
+      <span class="price03"><p>밝은 밤<br>13,950원</p></span>
+      <span class="price04"><p>역행자<br>15,750원</p></span>
+    </div>
+  </div>
+    
+  </div>
+ <!--메인슬라이드2-->
+  <div class="mainslide02">
+    <h1><b>보스락만의 이달의 추천 책</b></h1>
+    <div class="bosurock-recommend">
+      <img src="wep/2-1 사피엔스.JPG" alt="'사피엔스'책 표지 사진">
+      <img src="wep/2-2 그대들.JPG" alt="'그대들, 어떻게 살 것인가'책 표지 사진">
+      <img src="wep/2-3 쇼펜하우어.JPG" alt="'마흔에 읽는 쇼펜하우어'책 표지 사진">
+      <img src="wep/2-4 외딴 산장.JPG" alt="'눈에 갇힌 외딴 산장에서'책 표지 사진">
+    </div>
+    <div class="price">
+      <span class="price05"><p>사피엔스<br>24,100원</p></span>
+      <span class="price06"><p>그대들, 어떻게 살 것인가<br>10,800원</p></span>
+      <span class="price07"><p>마흔에 읽는 쇼펜하우어<br>15,260원</p></span>
+      <span class="price08"><p>눈에 갇힌 외딴 산장에서<br>16,920원</p></span>
+    </div>
+  </div>
+ <!--메인슬라이드3-->
+  <div class="mainslide03">
+    <h1><b>'한 페이지' 책</b></h1>
+    <div class="one-page">
+      <img src="wep/3-1 김채현.PNG" alt="책 한 페이지 적힌 사진">
+      <img src="wep/3-2 차하영.PNG" alt="책 한 페이지 적힌 사진">
+      <img src="wep/3-3 박은서.PNG" alt="책 한 페이지 적힌 사진">
+      <img src="wep/3-4 이수형.PNG" alt="책 한 페이지 적힌 사진">
+    </div>
+    <div class="price">
+      <span class="price09">9000원</span>
+      <span class="price10">12,420원</span>
+      <span class="price11">13,300원</span>
+      <span class="price12">11,700원</span>
+    </div>
+  </div>
+   <!--서브슬라이드-->
+  <div class="Sub-slide">
+    <h2><b>금주의 추천 책</b></h2>
+    <div class="book-introduce">
+      <img class="recommend" src="wep/4 작별하지 않는다.JPG" alt="'작별하지 않는다'책 표지 사진">
+      <h5><b>작별하지 않는다</b></h5>
+      <p class="introduce">한강, 문학동네<br>12,600원</p>
+      <p class="blue">부커상 작가 한강의 역작!</p>
+    </div>
+  </div>
+  <!--서브이벤트-->
+  <img class="Sub-event" src="wep/독서지원금.PNG" alt="독서지원금 이벤트 사진">
+</section>
+  <!--하단정보-->
+<footer>
+  <nav class="information">
+    <a href="#" target='_blank'>회사소개</a>
+    <a href="#" target='_blank'>이용약관</a>
+    <a href="#" target='_blank'>개인정보 처리방침</a>
+    <a href="#" target='_blank'>담당자안내</a>
+    <a href="#" target='_blank'>공지사항</a>
+
+    <p class="information2">
+    <span>(주)보스락책방</span><br/>
+    <span>대전광역시 대덕구 한남로</span><br/>
+    <span>Copyright 2023. bosurock. All Rights Reserved.</span>
+    </p>
+  </nav>
+</footer>
+</html>
